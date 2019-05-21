@@ -2,7 +2,16 @@ source "https://rubygems.org"
 git_source(:github){|repo| "https://github.com/#{repo}.git"}
 
 ruby "2.5.3"
+
+gem "bootstrap-sass", "3.3.7"
+gem "bootstrap-will_paginate", "1.0.0"
+gem "carrierwave",             "1.2.2"
+gem "config"
+gem "faker", "1.7.3"
+gem "figaro"
+gem "mini_magick", "4.7.0"
 gem "rubocop", "~> 0.54.0", require: false
+gem "will_paginate", "3.1.7"
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem "rails", "~> 5.2.3"
 # Use sqlite3 as the database for Active Record
@@ -21,10 +30,11 @@ gem "coffee-rails", "~> 4.2"
 gem "turbolinks", "~> 5"
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem "jbuilder", "~> 2.5"
+gem "jquery-rails"
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
-# gem 'bcrypt', '~> 3.1.7'
+gem "bcrypt", "~> 3.1.7"
 
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
