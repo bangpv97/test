@@ -86,6 +86,17 @@ en:
   reset_pass: "Reset password"
   forgot_pass: "Forgot password"
   password_reset: "Password reset"
+  view_profile: "view my profile"
+  micropost_created:  "Micropost created"
+  micropost_deleted: "Micropost deleted"
+  micropost_feed: "Micropost feed"
+  posted_ago: "Posted %{time} ago"
+  less_5MB: "Should be less than 5 MB"
+  post: "Post"
+  compose_micropost: "Compose new micropost..."
+  micropost:
+    one: "%{count} micropost"
+    other: "%{count} microposts"
   user_mailer:
     password_reset:
       content1: "To reset your password click the link below:"
@@ -118,3 +129,4 @@ en:
       one: "%{count} error"
       other: "%{count} errors"
     inactive_account: "Account not activated. Check your email for the activation link."
+    micropost_create_failure: "Micropost create failure"
