@@ -17,9 +17,9 @@ class UsersController < ApplicationController
   def create
     @user = User.new user_params
     if @user.save
-      log_in @user
-      flash[:success] = t "static_pages.home.sample_app"
-      redirect_to @user
+      @user.send_activation_email
+      flash[:info] = t "check_activaion_link"
+      redirect_to root_path
     else
       render :new
     end
@@ -61,7 +61,7 @@ class UsersController < ApplicationController
   def logged_in_user
     return if logged_in?
     store_location
-    flash[:danger] = t "errors.login_required"
+    flash[:danger] = t "errors.login required"
     redirect_to login_path
   end
 

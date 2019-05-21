@@ -74,6 +74,9 @@ en:
   sure?: "Are you sure?"
   profile_updated: "Profile updated"
   user_deleted: "User deleted"
+  account_activated: "Account Activated!"
+  invalid_activation_link: "Invalid activation link"
+  check_activaion_link: "Please check your email to activate your account."
   form:
     create_account: "Create my account"
     name: "Name"
@@ -88,9 +91,10 @@ en:
     login_required: "Please login"
     incorrect_user: "User is incorret"
     no_authority: "You have no authority"
-    invalid_user: "Invalid User"
+    invalid_user: "Invalid email/password combination"
     user_not_found: "Not Found"
     error_html: "This form contains %{error_count}."
     error:
       one: "%{count} error"
       other: "%{count} errors"
+    inactive_account: "Account not activated. Check your email for the activation link."

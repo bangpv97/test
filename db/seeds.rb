@@ -2,7 +2,17 @@ User.create!(name:  "Admin",
              email: "admin@admin.org",
              password: "admin123",
              password_confirmation: "admin123",
+<<<<<<< HEAD
              admin: true)
+=======
+<<<<<<< HEAD
+             admin: true)
+=======
+             admin: true,
+             activated: true,
+             activated_at: Time.zone.now)
+>>>>>>> Chapter 11: Account activation
+>>>>>>> Chapter 11: Account activation
 
 99.times do |n|
   name  = Faker::Name.name
@@ -11,5 +21,16 @@ User.create!(name:  "Admin",
   User.create!(name:  name,
                email: email,
                password:              password,
+<<<<<<< HEAD
                password_confirmation: password)
+=======
+<<<<<<< HEAD
+               password_confirmation: password)
+=======
+               password_confirmation: password,
+               activated: true,
+               activated_at: Time.zone.now)
+
+>>>>>>> Chapter 11: Account activation
+>>>>>>> Chapter 11: Account activation
 end

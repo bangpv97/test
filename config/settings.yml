@@ -4,4 +4,5 @@ password_min_length: 6
 gravatar_size: 80
 gravatar_small: 50
 checked: "1"
+default_email: "noreply@example.com"
 
