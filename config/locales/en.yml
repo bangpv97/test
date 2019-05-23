@@ -63,4 +63,4 @@ en:
   tutorial: "Ruby on Rails Tutorial"
   footer_html: "The %{main_href} by %{author_href}"
   author: "Michael Hartl"
-
+  not_found_error: "Not Found"
