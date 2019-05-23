@@ -55,7 +55,7 @@ en:
       main:  "Ruby on Rails"
   users:
     new:
-       signup_html: "This will be a signup page for new users."
+      signup_html: "This will be a signup page for new users."
   main_title: "Ruby on Rails Tutorial Sample App"
   signup: "Sign up now!"
   login: "Login"
