@@ -63,4 +63,13 @@ en:
   tutorial: "Ruby on Rails Tutorial"
   footer_html: "The %{main_href} by %{author_href}"
   author: "Michael Hartl"
-
+  not_found_error: "Not Found"
+  create_account: "Create my account"
+  name: "Name"
+  password: "Password"
+  email: "Email"
+  confirmation: "Confirmation"
+  error_html: "This form contains %{error_count}."
+  error:
+    one: "%{count} error"
+    other: "%{count} errors"
