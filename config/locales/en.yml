@@ -76,6 +76,7 @@ en:
     password: "Password"
     email: "Email"
     confirmation: "Confirmation"
+    remember_me: "Remember me on this computer"
   errors:
     invalid_user: "Invalid User"
     user_not_found: "Not Found"
