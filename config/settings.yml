@@ -4,4 +4,11 @@ password_min_length: 6
 gravatar_size: 80
 gravatar_small: 50
 checked: "1"
-
+default_email: "noreply@example.com"
+address: "smtp.gmail.com"
+port: 587
+authentication: "plain"
+enable: true
+domain: "example.com"
+host: "localhost:3000"
+protocol: "http"
