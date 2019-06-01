@@ -12,3 +12,5 @@ enable: true
 domain: "example.com"
 host: "localhost:3000"
 protocol: "http"
+content_max: 140
+max_size: 5
